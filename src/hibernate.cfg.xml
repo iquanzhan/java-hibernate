@@ -21,5 +21,9 @@
 
         <!--下一个层级的映射文件，用来配置bean对象与数据表之间的关系  -->
         <mapping resource="com/chengxiaoxiao/bean/Person.hbm.xml"/>
+
+        <!--<mapping class="com.chengxiaoxiao.bean.Book"/>-->
+        <mapping class="com.chengxiaoxiao.bean.Student"/>
+        <mapping class="com.chengxiaoxiao.bean.Phone"/>
     </session-factory>
 </hibernate-configuration>
